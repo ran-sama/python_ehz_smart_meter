@@ -5,7 +5,7 @@ runs = 0
 result = ''
 
 while runs <1:
-    char = open("idle.txt", "r")
+    char = open("smart_meter.log", "r")
     data = data + char.read().encode('HEX')
     offset = data.find(start)
     if (offset <> -1):
